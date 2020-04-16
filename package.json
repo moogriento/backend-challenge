@@ -1,0 +1,25 @@
+{
+  "name": "backend-challenge",
+  "version": "1.0.0",
+  "description": "Code challeng to upload csv files",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "jest"
+  },
+  "author": "Fernando Tong <fndtong@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@fast-csv/parse": "^4.1.2",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "mongoose": "^5.9.9"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0",
+    "mongodb-memory-server": "^6.5.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
